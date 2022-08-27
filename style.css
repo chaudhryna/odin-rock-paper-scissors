@@ -39,6 +39,26 @@ button {
     cursor: pointer;
 }
 
+button:disabled {
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+.reset {
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px;
+    font-size: 1.5rem;
+    padding: .5em;
+    background-color: #00e2d5;
+    color: #fff;
+}
+
+.reset:active {
+    box-shadow: 0 0 5px 5px;
+    transform: translateY(4px);
+}
+
 .playerChoice {
     display: flex;
     gap: 50px;
