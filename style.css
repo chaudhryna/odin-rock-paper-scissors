@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Open+Sans&display=swap');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url('./images/rock-paper-scissors-hand-icons.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+#container {
+    margin: 10em auto;
+    max-width: 600px;
+    background-color: rgba(189, 195, 199, 0.95);
+    padding: 1.7em 3em;
+    border-radius: 12px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.playerChoice {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 2.5em 0;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5em 0;
+    gap: 50px;
+}
+
+.result-card {
+    text-align: center;
+}
+
+#result {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.img-choice {
+    box-shadow: 0 0 10px 5px;
+    border-radius: 50%;
+}
+
+.img-choice:active {
+    box-shadow: 0 0 5px 5px;
+    transform: translateY(4px);
+}
